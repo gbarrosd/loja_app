@@ -65,7 +65,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Faturamento</a>
+                    <a href="{{route('faturamento')}}">Faturamento</a>
                 </li>
                 <li>
                     <a href="{{route('dashboard')}}">Dashboard</a>

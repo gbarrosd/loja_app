@@ -46,21 +46,21 @@
 </div>
 <div class="input-group mb-3">
     <span class="input-group-text">Valor</span>
-    <input required type="text" class="form-control" name="valor">
+    <input required type="number" class="form-control" name="valor">
     <div class="input-group-append">
       <span class="input-group-text">$</span>
     </div>
 </div>
 <div class="input-group mb-3">
     <span class="input-group-text">15%</span>
-    <input required type="text" class="form-control" name="porcento">
+    <input required type="number" class="form-control" name="porcento">
     <div class="input-group-append">
       <span class="input-group-text">%</span>
     </div>
 </div>
 <div class="input-group mb-3">
     <span class="input-group-text">Valor final</span>
-    <input required type="text" class="form-control" name="valor_real">
+    <input required type="number" class="form-control" name="valor_real">
     <div class="input-group-append">
       <span class="input-group-text">$</span>
     </div>

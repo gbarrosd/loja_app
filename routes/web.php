@@ -15,6 +15,7 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/',[\App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
+Route::get('faturamento',[\App\Http\Controllers\FaturaController::class, 'faturamento'])->name('faturamento');
 
 Route::get('/orcamentos',[\App\Http\Controllers\OrcamentoController::class, 'display'])->name('orcamento:list');
 Route::get('/create/orcamento',[\App\Http\Controllers\OrcamentoController::class, 'createForm'])->name('orcamento:create');
